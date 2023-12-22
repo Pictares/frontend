@@ -1,0 +1,9 @@
+.posts {
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: black;
+  margin: 10px 0;
+}
