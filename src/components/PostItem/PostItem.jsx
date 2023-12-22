@@ -19,7 +19,7 @@ export const PostItem = ({
 
   const onDeletePost = (postId) => {
     axios
-      .delete(`http://localhost:5000/api/posts/${postId}`)
+      .delete(`http://asrhgr9h.beget.tech/api/posts/${postId}`)
       .then((res) => {
         setPosts([...posts.filter((p) => p.id !== postId)])
       })
@@ -32,7 +32,7 @@ export const PostItem = ({
     <div className={s.postItem}>
       <div className={s.content}>
         <div className={s.image}>
-          <img src={`http://localhost:5000/${post.image}`} alt="" />
+          <img src={`http://asrhgr9h.beget.tech/${post.image}`} alt="" />
         </div>
         <strong>{post.title}</strong>
       </div>

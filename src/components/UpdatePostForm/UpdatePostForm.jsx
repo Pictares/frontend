@@ -13,7 +13,7 @@ export const UpdatePostForm = ({
   const onSaveChanges = (e) => {
     e.preventDefault()
     axios
-      .put('http://localhost:5000/api/posts', {
+      .put('http://asrhgr9h.beget.tech/api/posts', {
         id: post.id,
         title: post.title,
         body: post.body,

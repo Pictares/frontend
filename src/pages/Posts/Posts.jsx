@@ -25,7 +25,7 @@ export const Posts = (props) => {
   }, [])
 
   const fetchPosts = () => {
-    axios.get('http://localhost:5000/api/posts').then((res) => {
+    axios.get('http://asrhgr9h.beget.tech/api/posts').then((res) => {
       setPosts(res.data.posts)
     })
   }

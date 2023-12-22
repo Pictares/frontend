@@ -25,7 +25,7 @@ export const CreatePostForm = ({ setPosts, token, posts, setVisible }) => {
     formData.append('body', post.body)
 
     axios
-      .post('http://localhost:5000/api/posts', formData, {
+      .post('http://asrhgr9h.beget.tech/api/posts', formData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

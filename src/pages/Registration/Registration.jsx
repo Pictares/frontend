@@ -18,7 +18,7 @@ export const Registration = (props) => {
   const onRegistration = (e) => {
     e.preventDefault()
     axios
-      .post('http://localhost:5000/api/registration', {
+      .post('http://asrhgr9h.beget.tech/api/registration', {
         username,
         password,
       })
